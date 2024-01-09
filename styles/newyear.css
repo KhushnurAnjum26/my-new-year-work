@@ -8,6 +8,7 @@
     padding: 50px 50px 0px 140px;
     box-sizing: border-box;
     align-items: center;
+    margin: 0 auto;
 
 }
 
@@ -230,7 +231,7 @@
     border: none;
 }
 
- 
+
 
 .offer {
     width: 1320px;
@@ -301,6 +302,47 @@
     width: 140px;
     height: 140px;
     flex-shrink: 0;
+}
+
+.gift {
+    width: 1320px;
+    height: 1200px;
+    background: #FFF;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.gift-text1{
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.gift-text2{
+    color: #070211;
+font-family: Merriweather;
+font-size: 48px;
+font-weight: 900;
+text-transform: capitalize;
+margin-bottom: 24px;
+}
+.gift-text3{
+    color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 32px; 
+width: 896px;
+margin-left: 0px;
+margin-bottom: 30px;
+}
+.gift-image{
+    display: flex;
+    margin-bottom: 20px;
+}
+.gift-image-new{
+    display: flex;
+    margin-bottom: 60px;
 }
 
 .newsletter {
@@ -442,4 +484,5 @@
     display: flex;
     justify-content: space-between;
 }
+
 
